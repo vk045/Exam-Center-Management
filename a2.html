@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <style>
+	 	select {
+	 		border-radius: 3px;
+	 	}
+	 </style>
+</head>
+<body>
+	<div>
+		<p><p><p><h1><font color="white">Enter The Following Details and Submit it.</font></h1></p></p></p>
+		<form action = "generate_vacancy.php" method="post" style="margin-left: 5%;margin-right: 25%">
+			<input type="submit" name="button1" class="button" value="Click_here_to_start_program" />
+		</form>
+	<form action = "result.php" method="post" style="margin-left: 5%;margin-right: 25%; margin-top: 5%"  >
+
+		<select name="faculty" size="5" required>
+		  <option value="1001">Mohammed Zuhair</option>
+		  <option value="1002">Monika Shah</option>
+		  <option value="1003">Sanjay Garg</option>
+		  <option value="1005">Preksha B</option>
+		  <option value="1004">Amisha Patel</option>
+		  <option value="1006">Dvijesh Bhatt</option>
+		  <option value="1007">Rushabh Parikh</option>
+		  <option value="1008">Vishal Parikh</option>
+		  <option value="1009">Sapan Makad</option>
+		  <option value="1010">Rajesh Gupta</option>
+		  <option value="1011">Akhilesh Panvar</option>
+		  <option value="1012">Jigna Patel</option>
+		  <option value="1013">Dhaval Pujara</option>
+		</select>
+		<select name="course" size="5" required>
+		  <option value="1CS101">PSC</option>
+		  <option value="1CS102">CA</option>
+		  <option value="1CS103">DBMS</option>
+		  <option value="1CS104">PS</option>
+		  <option value="1CS105">OS</option>
+		  <option value="1CS106">WT</option>
+		</select>
+		<select name="batch" size="5">
+		  <option value="">NONE</option>
+		  <option value="csea1">CSE A1</option>
+		  <option value="csea2">CSE A2</option>
+		  <option value="csea3">CSE A3</option>
+		  <option value="csea4">CSE A4</option>
+		  <option value="cseb1">CSE B1</option>
+		  <option value="cseb2">CSE B2</option>
+		  <option value="cseb3">CSE B3</option>
+		  <option value="cseb4">CSE B4</option>
+		  <option value="csec1">CSE C1</option>
+		  <option value="csec2">CSE C2</option>
+		  <option value="csec3">CSE C3</option>
+		  <option value="csec4">CSE C4</option>
+		  <option value="csed1">CSE D1</option>
+		  <option value="csed2">CSE D2</option>
+		  <option value="csed3">CSE D3</option>
+		  <option value="csed4">CSE D4</option>
+		</select>
+		<select name="section" size="5" required>
+		  <option value="cse_a">CSE_A</option>
+		  <option value="cse_b">CSE_B</option>
+		  <option value="cse_c">CSE_C</option>
+		  <option value="cse_d">CSE_D</option>
+		</select>
+		<select name="period" size="5" required>
+		  <option value="0900-0950">09:00-09:50</option>
+		  <option value="0950-1050">09:50-10:50</option>
+		  <option value="1115-1215">11:15-12:15</option>
+		  <option value="1215-1315">12:15-13:15</option>
+		  <option value="1400-1600">14:00-16:00</option>
+		  <option value="1615-1715">16:15-17:15</option>
+		  <option value="1715-1805">17:15-18:05</option>
+		</select>
+		<select name="day" size="5" required>
+		  <option value="Monday">Monday</option>
+		  <option value="Tuesday">Tuesday</option>
+		  <option value="Wednesday">Wednesday</option>
+		  <option value="Thursday">Thursday</option>
+		  <option value="Friday">Friday</option>
+		  <option value="Saturday">Saturday</option>
+		  <option value="1715-1805">17:15-18:05</option>
+		</select>
+		<br>
+		<br>
+		<br>
+		<br>
+
+        <input type="submit" name="button1"
+        class="button"  />
+	</form>
+	<form action = "f_timetable.php" method="post" style="margin-left: 5%;margin-right: 25%;margin-top:5%">
+			<select name="faculty" size="5" required>
+		  <option value="1001">Mohammed Zuhair</option>
+		  <option value="1002">Monika Shah</option>
+		  <option value="1003">Sanjay Garg</option>
+		  <option value="1005">Preksha B</option>
+		  <option value="1004">Amisha Patel</option>
+		  <option value="1006">Dvijesh Bhatt</option>
+		  <option value="1007">Rushabh Parikh</option>
+		  <option value="1008">Vishal Parikh</option>
+		  <option value="1009">Sapan Makad</option>
+		  <option value="1010">Rajesh Gupta</option>
+		  <option value="1011">Akhilesh Panvar</option>
+		  <option value="1012">Jigna Patel</option>
+		  <option value="1013">Dhaval Pujara</option>
+		</select>
+			<input type="submit" name="button1" class="button" value="generate_time_table_for_faculty" />
+	</form>
+</div>
+</body>
+</html>
+<style>
+div {
+  background-image: url('6.jpg');
+  background-size: cover;
+  width: 1700px;
+  border: 15px;
+  border-color: rgba(255,0,255);
+  padding: 0px;
+  margin: 0px;
+  height: 800px
+}
